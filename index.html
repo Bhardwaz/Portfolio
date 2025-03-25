@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap 5 cdn -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font-awesome css file include -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/resume.css" />
+    <link rel="stylesheet" href="style/portfoliio.css" />
+    <link rel="stylesheet" href="style/contact.css" />
+
+    <!-- animate.css cdn inculded -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>const portfolio = ()=> 'SUMIT A FullStack Developer'</title>
+
+    <link rel="icon" href="images/title-icon.png" type="image/icon type" />
+  </head>
+
+  <body>
+    <div class="main">
+      <!-- Start of Content Section that contain user Photo,Name,and Personal Info Like...birthday,Address -->
+      <div class="fixed-container">
+        <!-- Start of Header Part that contain Name and Designation and Share Button -->
+        <header>
+          <div class="logo">
+            <h2>SUMIT BHARDWAJ</h2>
+            <h4>FULL STACK DEVELOPER</h4>
+          </div>
+          <div class="social-icons-container">
+            <button class="share-button">
+              <i class="fa fa-share"></i>
+            </button>
+
+            <ul class="social-icons">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/sumitbhardwaz/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/Bhardwaz" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://wa.me/9896682629" target="_blank"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </li>
+              <li>
+                <a href="mailto:sumitbhardwaj106@gmail.com" target="_blank"
+                  ><i class="fa-solid fa-envelope"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </header>
+        <!-- End of Header Part that contain Name and Designation and Share Button -->
+        <div id="profile" class="mtabs_content" style="display: flex">
+          <div class="about">
+            <div class="imgBox">
+              <img src="images/SUMIT.jpg" alt="user-profile" />
+            </div>
+            <div style="margin-left: 20px">
+              <h1>SUMIT BHARDWAJ</h1>
+              <h3>FULL STACK DEVELOPER</h3>
+              <br />
+              <p>
+                As a fresh and enthusiastic coder and web developer,I'm eager to
+                contribute my coding expertise to innovative projects. I'm
+                dedicated to transforming imaginative concepts into dynamic
+                digital experiences and I Love to design websites.
+              </p>
+            </div>
+          </div>
+          <ul class="personal-info">
+            <li><label for="">Name</label><span>Sumit Bhardwaj</span></li>
+            <li>
+              <label for="">Email</label><span>sumitbhardwaj106@gmail.com</span>
+            </li>
+            <li>
+              <label for="">Website</label
+              ><a
+                href=""
+                style="text-decoration: none"
+                ><span></span></a
+              >
+            </li>
+            <li><label for="">Birthday</label><span>Jan 2, 1999</span></li>
+            <li><label for="">Phone</label><span>+91-9896682629</span></li>
+            <li><label for="">Address</label><span>Rohtak-Haryana</span></li>
+          </ul>
+        </div>
+        <nav>
+          <ul>
+            <li class="list active tab-profile">
+              <a href="#profile">
+                <span class="icon">
+                  <ion-icon name="person-outline"></ion-icon>
+                </span>
+                <span class="text">Profile</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#resume">
+                <span class="icon">
+                  <ion-icon name="document-outline"></ion-icon>
+                </span>
+                <span class="text">Resume</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#portfolio">
+                <span class="icon">
+                  <ion-icon name="duplicate-outline"></ion-icon>
+                </span>
+                <span class="text">Portfolio</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#contact">
+                <span class="icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </span>
+                <span class="text">Contact</span>
+              </a>
+            </li>
+            <div class="indicator"></div>
+          </ul>
+        </nav>
+        <!-- end of Navigation Menu  -->
+      </div>
+
+      <!-- Resume section goes here  -->
+      <div id="resume" class="mtabs_content container-fluid">
+        <div class="top-box">
+          <div class="imgBx">
+            <div class="box">
+              <img src="./images/SUMIT.jpg" alt="profilePic" />
+            </div>
+          </div>
+          <div class="profileText">
+            <h3>
+              Sumit Bhardwaj<br />
+              <span>Full Stack Developer</span>
+            </h3>
+          </div>
+          <div class="download-btn">
+            Resume
+
+            <a id="downloadLink" href="./sumit_bhardwaj.pdf" download>
+              <ion-icon name="download-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <div class="contentBx">
+          <!-- left Side panel  -->
+          <div class="leftSide">
+            <h3>Contact Info</h3>
+            <ul>
+
+              <li>
+                <span class="icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </span>
+                <span class="text icon-button" id="phone-number" onclick="showButtons()">+91-9896682629</span>
+              
+                <!-- Hover Actions -->
+                <div class="button-container">
+                  <button class="copy-button" onclick="copyToClipboard('phone-number')">
+                    <ion-icon name="copy-outline"></ion-icon>
+                  </button>
+              
+                  <a href="tel:+919896682629" class="call-button">
+                    <ion-icon name="call"></ion-icon>
+                  </a>
+                </div>
+              </li>
+              
+              
+              <li>
+              <span class="icon">
+                  <ion-icon name="mail-open-outline"></ion-icon>
+                </span>
+              <span class="text icon-button" id="Email" onclick="copyToClipboard('Email')">sumitbhardwaj106@gmail.com</span>
+
+              </li>
+
+              <li>
+                <span class="icon">
+                  <ion-icon name="globe-outline"></ion-icon>
+                </span>
+
+          
+                <span class="icon-button">
+                  <a href="https://github.com/Bhardwaz" target="_blank" class="button-text">
+                    Github
+                  </a>
+                </span>
+              </li>
+
+              <li>
+                <span>
+                  <ion-icon name="code"></ion-icon>
+                </span>
+
+                <span class="icon-button">
+                  <a href="https://codolio.com/profile/dmgQtrFo" target="_blank" class="button-text">
+                    Codolio
+                  </a>
+                </span>
+              </li>
+              
+              <li>
+                <span class="icon">
+                  <ion-icon name="location-outline"></ion-icon>
+                </span>
+                <span class="text">Rohtak, Haryana, India</span>
+              </li>
+            </ul>
+            <!-- Education  -->
+            <h3>Education</h3>
+            <ul class="education">
+              <li>
+                <h5>2022 - 2024</h5>
+                <h4>Master's of Computer Application</h4>
+                <h6>
+                  MD University - Rohtak
+                </h6>
+              </li>
+              <li>
+                <h5>2016 - 2019</h5>
+                <h4>Bachelor's of Computer Application</h4>
+                <h6>MD University - Rohtak</h6>
+              </li>
+              <li>
+                <h5>2014 - 2016</h5>
+                <h4>Senior Secondary</h4>
+                <h6> Bhiwani Board </h6>
+              </li>
+            </ul>
+
+            <!-- Languages   -->
+            <h3>Language</h3>
+            <ul class="language">
+              <li>
+                <span class="text">English</span>
+                <span class="percent">
+                  <div style="width: 90%"></div>
+                </span>
+              </li>
+              <li>
+                <span class="text">Hindi</span>
+                <span class="percent">
+                  <div style="width: 95%"></div>
+                </span>
+              </li>
+            </ul>
+            <!-- Interest  -->
+            <h3>Interest</h3>
+            <ul class="interest">
+              <li>
+                <span class="icon">
+                  <ion-icon name="book-outline"></ion-icon
+                ></span>
+                Book Reading
+              </li>
+              <li>
+                <span class="icon">
+                  <ion-icon name="game-controller-outline"></ion-icon>
+                </span>
+                Gaming
+              </li>
+              <li>
+                <span class="icon"
+                  ><ion-icon name="logo-web-component"></ion-icon
+                ></span>
+                Web Design
+              </li>
+              <li>
+                <span class="icon"
+                  ><ion-icon name="barbell-outline"></ion-icon
+                ></span>
+                Exercise
+              </li>
+            </ul>
+          </div>
+          <!-- Right side panel  -->
+          <div class="rightSide">
+            <div class="about-profile">
+              <h3>Profile</h3>
+              <p>
+                As a fresh and enthusiastic coder and web developer,I'm eager to
+                contribute my coding expertise to innovative projects. I'm
+                dedicated to transforming imaginative concepts into dynamic
+                digital experiences and I Love to design websites.
+              </p>
+            </div>
+            <div class="about-project">
+              <h3>Projects</h3>
+              <!-- Project box -->
+              <div class="box">
+                <a
+                  href="https://github.com/Bhardwaz/BLOODBANK-APP"
+                  target="_blank"
+                  > <h5> Blood-Bank App </h5> </a>
+                <div class="text">
+                  <ol type="i">
+                    <li>
+                      Developed and designed a web application that streamlines blood donation processes for NGOs and student organizations, significantly enhancing operational efficiency and user experience.
+                    </li>
+                    <li>
+                      Implemented user-friendly interfaces for donors, hospitals, and organizations, improving accessibility and engagement.
+                    </li>
+                    <li>
+                      Integrated advanced features such as dashboards and analytics, providing real-time insights into donation activities.
+                    </li>
+                    <li>Tech stack : <span> MonogoDB, ExpressJs, Redux, React, NodeJs </span></li>
+                  </ol>
+                </div>
+              </div>
+              <div class="box">
+              
+                <a
+                  href="https://realtime-chat-frontend-hazel.vercel.app/"
+                  target="_blank"
+                >
+                <h5> FULL STACK MESSAGING APP</h5>
+                </a>
+                <div class="text">
+                  <ol type="i">
+                    <li>
+                      Implemented WebSocket technology for real-time communication between clients
+                    </li>
+                    <li>
+                      Utilized refresh and access token using JSON Web Token (JWT) for secure authentication and authorization on the backend.
+                    </li>
+                    <li>
+                      Implemented RESTful APIs for sending messages, creating and managing user groups, and searching for users.
+                    </li>
+                    <li>
+                      Tech stack : <span>React, Chakara-UI, NodeJs, MongoDB, ExpressJs, Socket.io</span> 
+                    </li>
+                  </ol>
+                </div>
+              </div>
+              <div class="box">
+    
+                <a href="https://sheet-master.vercel.app/" target="_blank"
+                  ><h5> Multisheet Pro </h5></a
+                >
+                <div class="text">
+                  <ol type="i">
+                    <li>
+                      Developed an Excel-like application using vanilla JavaScript and Web APIs, featuring capabilities for managing multiple sheets, downloading and opening sheet files, performing CRUD operations, updating formulas/data, and customizing text color and fonts.
+                    </li>
+                    <li>
+                      Implemented a Cycle Detection Algorithm to identify and prevent cyclic dependencies in formulas
+                    </li>
+                    <li>Tech stack : <span>Javascript, HTML, CSS</span></li>
+                  </u>
+                </div>
+              </div>
+            </div>
+            <div class="about-skills">
+              <h3>Professional Skills</h3>
+              <!-- skills box  -->
+
+              <div class="box">
+                <h4>Data-Structures & Algorithms</h4>
+                <span class="percent">
+                  <div style="width: 75%"></div>
+                </span>
+              </div>
+
+              <div class="box">
+                <h4>Low Level Design</h4>
+                <span class="percent">
+                  <div style="width: 55%"></div>
+                </span>
+              </div>
+
+              <div class="box">
+                <h4>High Level Design</h4>
+                <span class="percent">
+                  <div style="width: 75%"></div>
+                </span>
+              </div>
+
+              <div class="box">
+                <h4>HTML</h4>
+                <span class="percent">
+                  <div style="width: 90%"></div>
+                </span>
+              </div>
+              <div class="box">
+                <h4>CSS</h4>
+                <span class="percent">
+                  <div style="width: 95%"></div>
+                </span>
+              </div>
+              <div class="box">
+                <h4>JavaScript</h4>
+                <span class="percent">
+                  <div style="width: 85%"></div>
+                </span>
+              </div>
+              <div class="box">
+                <h4>REACT</h4>
+                <span class="percent">
+                  <div style="width: 80%"></div>
+                </span>
+              </div>
+              <div class="box">
+                <h4>Node Js</h4>
+                <span class="percent">
+                  <div style="width: 85%"></div>
+                </span>
+              </div>
+
+              <div class="box">
+                <h4>Next JS</h4>
+                <span class="percent">
+                  <div style="width: 75%"></div>
+                </span>
+              </div>
+            </div>
+
+            <div class="about-skills">
+              <h3>Tools</h3>
+              <!-- skills box  -->
+
+              <div class="box">
+                <h4>Postman</h4>
+                <span class="percent">
+                  <div style="width: 85%"></div>
+                </span>
+              </div>
+
+              <div class="box">
+                <h4>Cursor AI</h4>
+                <span class="percent">
+                  <div style="width: 75%"></div>
+                </span>
+              </div>
+
+              <div class="box">
+                <h4>VS-Code</h4>
+                <span class="percent">
+                  <div style="width: 90%"></div>
+                </span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Resume Section End here  -->
+
+      <!-- Portfolio section start here  -->
+      <div id="portfolio" class="mtabs_content">
+        <h1>Timeline</h1>
+        <br />
+        <div class="process-wrapper">
+          <div id="progress-bar-container">
+            <ul>
+              <li class="step step01 active">
+                <div class="step-inner">Other Projects</div>
+              </li>
+              <li class="step step02">
+                <div class="step-inner">Certificates</div>
+              </li>
+              <li class="step step03">
+                <div class="step-inner">Creative CREATIONS</div>
+              </li>
+              <li class="step step04">
+                <div class="step-inner">TESTIMONIALS</div>
+              </li>
+              <li class="step step05">
+                <div class="step-inner">Other Work</div>
+              </li>
+            </ul>
+
+            <div id="line">
+              <div id="line-progress"></div>
+            </div>
+          </div>
+
+          <div id="progress-content-section">
+            <div class="section-content discovery active">
+              <h2>Other Noteworthy Projects</h2>
+              <div class="grid">
+                <!-- Realtime notebook  -->
+                <div class="card">
+                  <div class="cardHeader">
+                    <a
+                      href="https://sketch-board-xi.vercel.app/"
+                      target="_blank"
+                    >
+                      <span class="icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="1em"
+                          viewBox="0 0 496 512"
+                        >
+                          <path
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                          />
+                        </svg>
+                      </span>
+                    </a>
+                    <h4>Realtime Notebook</h4>
+                  </div>
+
+                  <p>
+                    Just a fun project with vanilla JS. Two users can connect remotely and draw sketches and can take notes together. Changes reflect across both user if anyone do activity on board.
+                  </p>
+                  <div class="shine"></div>
+                  <div class="background">
+                    <div class="tiles">
+                      <div class="tile tile-1"></div>
+                      <div class="tile tile-2"></div>
+                      <div class="tile tile-3"></div>
+                      <div class="tile tile-4"></div>
+
+                      <div class="tile tile-5"></div>
+                      <div class="tile tile-6"></div>
+                      <div class="tile tile-7"></div>
+                      <div class="tile tile-8"></div>
+
+                      <div class="tile tile-9"></div>
+                      <div class="tile tile-10"></div>
+                    </div>
+
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="cardHeader">
+                    <a
+                      href="https://restaurant-listings.vercel.app/"
+                      target="_blank"
+                    >
+                      <span class="icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="1em"
+                          viewBox="0 0 496 512"
+                        >
+                          <path
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                          />
+                        </svg>
+                      </span>
+                    </a>
+                    <h4> Restaurant-Listings </h4>
+                  </div>
+
+                  <p>
+                    Tried using live APIs of Swiggy on Frontend and build few functionalities. 
+                    * Integrated search functionality for listed restaurants, enhancing user experience.
+                    * Developed a filter functionality based on ratings to streamline restaurant selection.
+                    * Enabled users to select from all available cuisines and filter restaurants that offer those cuisines.
+                  </p>
+                  <div class="shine"></div>
+                  <div class="background">
+                    <div class="tiles">
+                      <div class="tile tile-1"></div>
+                      <div class="tile tile-2"></div>
+                      <div class="tile tile-3"></div>
+                      <div class="tile tile-4"></div>
+
+                      <div class="tile tile-5"></div>
+                      <div class="tile tile-6"></div>
+                      <div class="tile tile-7"></div>
+                      <div class="tile tile-8"></div>
+
+                      <div class="tile tile-9"></div>
+                      <div class="tile tile-10"></div>
+                    </div>
+
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="cardHeader">
+                    <a
+                      href=""
+                      target="_blank"
+                    >
+                      <span class="icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="1em"
+                          viewBox="0 0 496 512"
+                        >
+                          <path
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                          />
+                        </svg>
+                      </span>
+                    </a>
+                    <h4>Git and Github Notes</h4>
+                  </div>
+
+                  <p>
+                    Learned about git and github inside in and out.
+                  </p>
+                  <div class="shine"></div>
+                  <div class="background">
+                    <div class="tiles">
+                      <div class="tile tile-1"></div>
+                      <div class="tile tile-2"></div>
+                      <div class="tile tile-3"></div>
+                      <div class="tile tile-4"></div>
+
+                      <div class="tile tile-5"></div>
+                      <div class="tile tile-6"></div>
+                      <div class="tile tile-7"></div>
+                      <div class="tile tile-8"></div>
+
+                      <div class="tile tile-9"></div>
+                      <div class="tile tile-10"></div>
+                    </div>
+
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-content strategy">
+              <h2>Certificates</h2>
+
+              <ol class="gradient-list">
+                <li>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae sit, expedita libero dolore cum nihil veniam ad, dicta porro nostrum ipsum, commodi odio nemo quaerat incidunt. Beatae debitis nostrum facere?
+                  <a
+                    href=""
+                    target="_blank"
+                    >Certificate</a
+                  >
+                </li>
+                <li>
+                  /* Lorem */
+                  <a
+                    href=""
+                    target="_blank"
+                    >Certificate</a
+                  >
+                </li>
+                <li>
+                  /*  */
+                  <a
+                    href=""
+                    target="_blank"
+                    >Certificate</a
+                  >
+                </li>
+                <li> </li>
+              </ol>
+            </div>
+
+            <div class="section-content creative">
+              <h2>Creative CREATIONS</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                neque justo, consequat non fermentum ac, tempor eu turpis. Proin
+                nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla
+                in dapibus lorem. Suspendisse vitae velit ac ante consequat
+                placerat ut sed eros. Nullam porttitor mattis mi, id fringilla
+                ex consequat eu. Praesent pulvinar tincidunt leo et condimentum.
+                Maecenas volutpat turpis at felis egestas malesuada. Phasellus
+                sem odio, venenatis at ex a, lacinia suscipit orci.
+              </p>
+            </div>
+
+            <div class="section-content production">
+              <h2>TESTIMONIALS NOW</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                neque justo, consequat non fermentum ac, tempor eu turpis. Proin
+                nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla
+                in dapibus lorem. Suspendisse vitae velit ac ante consequat
+                placerat ut sed eros. Nullam porttitor mattis mi, id fringilla
+                ex consequat eu. Praesent pulvinar tincidunt leo et condimentum.
+                Maecenas volutpat turpis at felis egestas malesuada. Phasellus
+                sem odio, venenatis at ex a, lacinia suscipit orci.
+              </p>
+            </div>
+
+            <div class="section-content analysis">
+              <h2> Social Handles </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                neque justo, consequat non fermentum ac, tempor eu turpis. Proin
+                nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla
+                in dapibus lorem. Suspendisse vitae velit ac ante consequat
+                placerat ut sed eros. Nullam porttitor mattis mi, id fringilla
+                ex consequat eu. Praesent pulvinar tincidunt leo et condimentum.
+                Maecenas volutpat turpis at felis egestas malesuada. Phasellus
+                sem odio, venenatis at ex a, lacinia suscipit orci.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio section End here  -->
+
+      <!-- contact section start here  -->
+      <div id="contact" class="mtabs_content">
+        <div class="container">
+          <div class="content">
+            <div class="left-side">
+              <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">
+                  Rohtak-Haryana
+                </div>
+                <div class="text-two">
+                  124404
+                </div>
+              </div>
+              <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">+91-9896682629</div>
+              </div>
+              <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">sumitbhardwaj106@gmail.com</div>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="topic-text">Send us a message</div>
+              <p>
+                If you have any work from me or any types of quries related to
+                me, you can send me message from here. It's my pleasure to help
+                you.
+              </p>
+              <form action="#">
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your name" />
+                </div>
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your email" />
+                </div>
+                <div class="input-box message-box">
+                  <textarea
+                    placeholder="Enter your message"
+                    spellcheck="false"
+                  ></textarea>
+                </div>
+                <div class="button">
+                  <input type="button" value="Send Now" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- contact section End here  -->
+
+      <footer>
+        <div class="copyright">Copyright &copy; 2025 Sumit Bhardwaj </div>
+      </footer>
+    </div>
+
+    <!--Main div ending --->
+
+    <!-- website loader -->
+    <div class="cycle-loader">
+      <lottie-player
+        class="cycle"
+        src="https://lottie.host/c8e02faf-ee46-4817-b996-11e7566d73ee/NqNLvbkSCm.json"
+        background="transparent"
+        speed="1"
+        style="width: 200px; height: 200px"
+        loop
+        autoplay
+      ></lottie-player>
+      <div class="loader--text">Loading...</div>
+    </div>
+
+    <!-- JavaScript file -->
+
+    <script src="script/main.js"></script>
+
+    <!-- Cycle Loader script -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- ionicons cdn -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      $(".step").click(function () {
+        $(this).addClass("active").prevAll().addClass("active");
+        $(this).nextAll().removeClass("active");
+      });
+
+      $(".step01").click(function () {
+        $("#line-progress").css("width", "3%");
+        $(".discovery").addClass("active").siblings().removeClass("active");
+      });
+
+      $(".step02").click(function () {
+        $("#line-progress").css("width", "25%");
+        $(".strategy").addClass("active").siblings().removeClass("active");
+      });
+
+      $(".step03").click(function () {
+        $("#line-progress").css("width", "50%");
+        $(".creative").addClass("active").siblings().removeClass("active");
+      });
+
+      $(".step04").click(function () {
+        $("#line-progress").css("width", "75%");
+        $(".production").addClass("active").siblings().removeClass("active");
+      });
+
+      $(".step05").click(function () {
+        $("#line-progress").css("width", "100%");
+        $(".analysis").addClass("active").siblings().removeClass("active");
+      });
+    </script>
+  </body>
+</html>
